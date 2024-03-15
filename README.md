@@ -59,6 +59,10 @@ The algorithm is as follows:
 5. Return the optimal policy and the optimal value function.
 
 ## VALUE ITERATION FUNCTION
+```
+Developed by: Vineesh.M
+Reference Number: 212221230122
+```
 ```python
 def value_iteration(P, gamma=1.0, theta=1e-10):
     # Initialize the value function V as an array of zeros
@@ -88,7 +92,14 @@ def value_iteration(P, gamma=1.0, theta=1e-10):
 ```
 
 ## OUTPUT:
-![rlo](https://github.com/Vineesh-AI-DS/rl-value-iteration/assets/93427254/65d95f11-1066-4a97-bc3d-2e946175d98a)
+## Optimal policy by value iteration:
+![Screenshot 2024-03-15 105111](https://github.com/Vineesh-AI-DS/rl-value-iteration/assets/93427254/106afad9-ebb6-4ad1-abf2-725943cdeab5)
+
+## Goal percentage of optimal policy by value iteration:
+![Screenshot 2024-03-15 105143](https://github.com/Vineesh-AI-DS/rl-value-iteration/assets/93427254/9a5af894-3163-462e-8662-233f55b1c832)
+
+## Optimal policy state-value function by value iteration:
+![Screenshot 2024-03-15 105222](https://github.com/Vineesh-AI-DS/rl-value-iteration/assets/93427254/2ba38f0d-fe81-4b78-ac69-ef8c8e333d82)
 
 
 ## RESULT:
